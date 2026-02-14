@@ -1,0 +1,28 @@
+.tabs__nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.tabs__button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.tabs__button.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.tabs__button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.tabs__content {
+    padding: 16px;
+    border: 1px solid #ccc;
+}
