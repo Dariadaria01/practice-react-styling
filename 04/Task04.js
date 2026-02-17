@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import Tabs from '../components/Tabs/Tabs';
-import Tab from '../components/Tabs/Tab';
+import Tabs from './src/components/Tabs/Tabs';
+import Tab from './src/components/Tabs/Tab';
 
 const Task04 = () => {
   return (

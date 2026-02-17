@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Tabs.css';
 
 const Tabs = ({ children, defaultActiveKey }) => {
     const [activeKey, setActiveKey] = useState(defaultActiveKey);
