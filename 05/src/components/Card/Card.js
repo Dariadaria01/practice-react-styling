@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Card as RBCard } from 'react-bootstrap';
 
 const Card = ({ children, width = '18rem' }) => {

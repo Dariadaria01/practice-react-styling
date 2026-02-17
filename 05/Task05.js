@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Row, Col } from 'react-bootstrap';
 
 import {
@@ -6,9 +8,9 @@ import {
   CardBody,
   CardTitle,
   CardText,
-} from '../components/Card';
+} from './src/components/Card';
 
-import Button from '../components/Button/Button';
+import Button from './src/components/Card/Button';
 
 const Task05 = () => {
   return (

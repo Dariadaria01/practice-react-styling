@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Card as RBCard } from 'react-bootstrap';
 
 const CardImage = ({ src, variant = 'top' }) => {
